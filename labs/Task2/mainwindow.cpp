@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent) {
     setupUI();
     resize(900,600);
-    QString imagePath = QCoreApplication::applicationDirPath() + "/images/background.png";
+    QString imagePath = QCoreApplication::applicationDirPath() + ":/images/background.png";
     if (QFileInfo::exists(imagePath)) {
         backgroundPixmap.load(imagePath);
     }
