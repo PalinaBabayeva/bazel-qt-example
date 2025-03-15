@@ -61,7 +61,7 @@ private:
     QLabel *timerLabel;
     QLCDNumber *timerDisplay;
     QCalendarWidget *miniCalendar;
-    int elapsedTime;
+    int elapsedTime=0;
 };
 
 #endif // MAINWINDOW_H
